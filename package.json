@@ -1,15 +1,12 @@
 {
   "name": "gpt-mini",
-  "version": "1.0.0",
-  "main": "chat.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "private": true,
+  "type": "module",
   "dependencies": {
-    "openai": "^5.15.0"
+    "dotenv": "^17.2.1",
+    "openai": "^4.57.0"
+  },
+  "engines": {
+    "node": ">=18 <23"
   }
 }
